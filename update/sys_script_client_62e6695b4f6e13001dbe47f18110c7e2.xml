@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set Item type field automatically for mobiles</description>
+        <field>cmdb_ci</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Loaner Item Type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading)
+		return;
+	
+	g_form.getReference('cmdb_ci', checkName);
+	
+	function checkName(ci){
+		var name = ci.name + '';
+		if (name.match(/.*Blackberry.*/i) || name.match(/.*iphone.*/i) || name.match(/.*android.*/i)){
+			g_form.setValue('item_type', 'cmdb_ci_mobile_device', 'Mobile Phone');
+			g_form.setReadOnly('item_type', true);
+		} else {
+			g_form.setReadOnly('item_type', false);
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 15:03:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62e6695b4f6e13001dbe47f18110c7e2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Loaner Item Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Request" source="x_214976_loaner_re">4585e8024f2213001dbe47f18110c762</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">4585e8024f2213001dbe47f18110c762</sys_scope>
+        <sys_update_name>sys_script_client_62e6695b4f6e13001dbe47f18110c7e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 15:14:57</sys_updated_on>
+        <table>x_214976_loaner_re_loaner_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
