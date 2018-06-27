@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_214976_loaner_re_start_date_to" label="Start date TO" language="en" table="sc_cat_item">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_214976_loaner_re_start_date_to</element>
+            <help/>
+            <hint/>
+            <label>Start date TO</label>
+            <language>en</language>
+            <name>sc_cat_item</name>
+            <plural>Start date TOs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-27 11:37:12</sys_created_on>
+            <sys_id>d13a0e0c4f8f53001dbe47f18110c73c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Start date TO</sys_name>
+            <sys_package display_value="Loaner Request" source="x_214976_loaner_re">4585e8024f2213001dbe47f18110c762</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Request">4585e8024f2213001dbe47f18110c762</sys_scope>
+            <sys_update_name>sys_documentation_sc_cat_item_x_214976_loaner_re_start_date_to_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-27 11:37:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

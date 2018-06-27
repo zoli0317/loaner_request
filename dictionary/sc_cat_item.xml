@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="global_search_config_handler=CatalogItem,all_tables.text_index_translations=true,update_synch=true,all_tables.synch_attachments=true,text_wiki_translations=true" extends="sys_metadata" label="Catalog Item" max_length="40" name="sc_cat_item" read_roles="catalog,itil" text_index="true" type="collection">
+        <element label="Start Date FROM" max_length="40" name="x_214976_loaner_re_start_date_from" type="glide_date_time"/>
+        <element label="Start date TO" max_length="40" name="x_214976_loaner_re_start_date_to" type="glide_date_time"/>
+    </element>
+</database>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>valami</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_214976_loaner_re.return.remindtime</name>
+        <read_roles>x_214976_loaner_re.admin</read_roles>
+        <suffix>return.remindtime</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-25 16:09:19</sys_created_on>
+        <sys_id>da1570e34f3e13001dbe47f18110c7de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_214976_loaner_re.return.remindtime</sys_name>
+        <sys_package display_value="Loaner Request" source="x_214976_loaner_re">4585e8024f2213001dbe47f18110c762</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">4585e8024f2213001dbe47f18110c762</sys_scope>
+        <sys_update_name>sys_properties_da1570e34f3e13001dbe47f18110c7de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-25 16:24:38</sys_updated_on>
+        <type>integer</type>
+        <value>12</value>
+        <write_roles>x_214976_loaner_re.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=da1570e34f3e13001dbe47f18110c7de"/>
+</record_update>

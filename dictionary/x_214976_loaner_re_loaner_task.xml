@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Loaner Task" max_length="40" name="x_214976_loaner_re_loaner_task" sizeclass="1" type="collection"/>
+</database>

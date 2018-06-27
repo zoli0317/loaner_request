@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>service-catalog</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Catalog client scripts</h1>  <div class="body conbody">  <p class="p">Use catalog client scripts to control the behavior of the catalog                    items when presented to your users. Catalog client scripts can be applied to a                    catalog item or a variable set. These scripts run on the browser instead of the                    server, allowing you to better control the information that the user                    submits.</p> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Service-Catalog-Variable-Sets&amp;version&#61;kingston" target="_blank">Service catalog variable sets</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Service-Catalog-Items&amp;version&#61;kingston" target="_blank">Introduction to catalog items</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Service-Catalog-Client-Script&amp;version&#61;kingston" target="_blank">Service catalog client script</a></div></div></div></div>]]></content>
+        <last_sync>2018-06-27 11:32:10</last_sync>
+        <modifier>normal</modifier>
+        <name>catalog_script_client_list-normal</name>
+        <page>catalog_script_client_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-27 11:32:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef09020c4f8f53001dbe47f18110c7e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_script_client_list-normal</sys_name>
+        <sys_package display_value="Loaner Request" source="x_214976_loaner_re">4585e8024f2213001dbe47f18110c762</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">4585e8024f2213001dbe47f18110c762</sys_scope>
+        <sys_update_name>sys_embedded_help_content_ef09020c4f8f53001dbe47f18110c7e6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-27 11:32:10</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef09020c4f8f53001dbe47f18110c7e6"/>
+</record_update>
